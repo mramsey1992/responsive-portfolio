@@ -236,12 +236,18 @@ figcaption {
 		width: 410px;
 	}
 
-	placeholder {
+	div.placecontainer {
+		float: none;
+	}
+
+	.placeholder {
 		width: 100%;
+
 	}
 
 	figcaption {
 		width: 100%;
+		
 	}
 }
 
@@ -263,6 +269,15 @@ figcaption {
 	
 	h3 {
 		text-align: left;
+	}
+
+	div.placecontainer {
+		float: left;
+		
+	}
+
+	.placeholder {
+		width: auto;
 	}
 
 }
@@ -296,5 +311,13 @@ figcaption {
 
 	div.main-content {
 		margin-top: 175px;
+	}
+
+	div.placecontainer {
+		float: none;
+	}
+
+	.placeholder {
+		width: 100%;
 	}
 }
